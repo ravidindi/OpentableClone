@@ -1,13 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
-    // Or if using `src` directory:
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ["./app/**/*.{js,tsx,jsx,ts}"],
   theme: {
     extend: {},
     fontSize:{
@@ -21,8 +14,7 @@ module.exports = {
       "4xl":"32px",
       "5xl":"40px",
       "6xl":"50px",
-      "7xl":"70px",
-
+      "7xl":"70px"
     }
   },
   plugins: [],

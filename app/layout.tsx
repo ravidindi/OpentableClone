@@ -1,4 +1,3 @@
-import Navbar from './components/Navbar'
 import './globals.css'
 
 export default function RootLayout({
@@ -14,13 +13,11 @@ export default function RootLayout({
       */}
       <head />
       <body>
-      <main className="bg-gray-100 min-h-screen w-screen text-black">
-      <main className="max-w-screen-2xl m-auto bg-white">
-    <Navbar/>
+      <main className="bg-gray-100 min-h-screen w-screen">
+  <main className="max-w-screen-2xl m-auto bg-white">
         {children}
         </main>
-      </main>
-        </body>
+</main></body>
     </html>
   )
 }

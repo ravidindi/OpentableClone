@@ -7,9 +7,7 @@ export default function Reviews() {
             What 100 people are saying
           </h1>
           <div>
-            {/* REVIEW CARD */}
             <ReviewCard/>
-            {/* REVIEW CARD */}
           </div>
         </div>  )
 }

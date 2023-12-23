@@ -1,21 +1,18 @@
-import Link from "next/link";
 import Navbar from "../components/Navbar";
-import SearchBar from "../components/SearchBar";
-import RestaurantCar from "./components/RestaurantCar";
+import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
+import RestaurantCard from "./components/RestaurantCard";
 
-export default function Search(){
+export default function SearchPage(){
     return (
-        <main className="bg-gray-100 min-h-screen w-screen text-black">
-  <main className="max-w-screen-2xl m-auto bg-white">
+       <>
    <Navbar/>
-    <SearchBar/>
+    <Header/>
     <div className="flex py-4 m-auto w-2/3 justify-between items-start">
       <Sidebar/>
-      <RestaurantCar/>
+      <RestaurantCard/>
     </div>
-  </main>
-</main>
+  </>
 
     )
 }
